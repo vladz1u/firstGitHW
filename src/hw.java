@@ -6,6 +6,7 @@ public class hw {
 //        fourthTask(1);
 //        fifthTask(0);
 //        sixthTask(1);
+        seventhTask("test");
 
     }
 
@@ -49,6 +50,14 @@ public class hw {
             System.out.println("Correct");
         } else
             System.out.println("Incorrect");
+    }
+
+    public static void seventhTask(String str) {
+        if (str == "test"){
+            System.out.println("Correct");
+        } else
+            System.out.println("Incorrect");
+
     }
 
 }
